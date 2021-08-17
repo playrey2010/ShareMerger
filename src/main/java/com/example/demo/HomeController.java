@@ -24,7 +24,7 @@ public class HomeController {
     @Autowired
     RoleRepository roleRepository;
 
-    @RequestMapping("/")
+    @RequestMapping("/homePage")
     public String index(){
         return "index";
     }
